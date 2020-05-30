@@ -1,0 +1,67 @@
+HSV color space SRNet, 200 images for each steg, 80-20 split
+Train for 400 steps, validate for 100 steps
+Epoch 1/5
+400/400 [==============================] - 85s 212ms/step - loss: 0.6985 - accuracy: 0.5038 - val_loss: 0.8747 - val_accuracy: 0.4500
+Epoch 2/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6854 - accuracy: 0.5462 - val_loss: 1.0513 - val_accuracy: 0.4100
+Epoch 3/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6772 - accuracy: 0.5763 - val_loss: 1.0615 - val_accuracy: 0.3850
+Epoch 4/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6661 - accuracy: 0.6212 - val_loss: 1.1800 - val_accuracy: 0.3750
+Epoch 5/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6564 - accuracy: 0.6212 - val_loss: 1.1309 - val_accuracy: 0.3750
+
+
+YUV color space SRNet, 200 images for each steg, 80-20 split
+Trained on top of previous, not valid.
+Train for 400 steps, validate for 100 steps
+Epoch 1/5
+400/400 [==============================] - 85s 213ms/step - loss: 0.6821 - accuracy: 0.5750 - recall: 0.5750 - val_loss: 0.7879 - val_accuracy: 0.5950 - val_recall: 0.5950
+Epoch 2/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6700 - accuracy: 0.5987 - recall: 0.5987 - val_loss: 0.8068 - val_accuracy: 0.6050 - val_recall: 0.6050
+Epoch 3/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6567 - accuracy: 0.6350 - recall: 0.6350 - val_loss: 0.8747 - val_accuracy: 0.5700 - val_recall: 0.5700
+Epoch 4/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6486 - accuracy: 0.6475 - recall: 0.6475 - val_loss: 0.8294 - val_accuracy: 0.5350 - val_recall: 0.5350
+Epoch 5/5
+400/400 [==============================] - 81s 201ms/step - loss: 0.6402 - accuracy: 0.6837 - recall: 0.6837 - val_loss: 0.8758 - val_accuracy: 0.5650 - val_recall: 0.5650
+
+LAB color space SRNet, 200 images for each steg, 80-20 split
+Train for 400 steps, validate for 100 steps
+Train for 400 steps, validate for 100 steps
+Epoch 1/5
+400/400 [==============================] - 85s 212ms/step - loss: 0.7028 - accuracy: 0.5075 - recall_2: 0.5075 - val_loss: 0.6512 - val_accuracy: 0.6850 - val_recall_2: 0.6850
+Epoch 2/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6909 - accuracy: 0.5300 - recall_2: 0.5300 - val_loss: 0.8723 - val_accuracy: 0.5550 - val_recall_2: 0.5550
+Epoch 3/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6814 - accuracy: 0.5725 - recall_2: 0.5725 - val_loss: 0.8662 - val_accuracy: 0.6750 - val_recall_2: 0.6750
+Epoch 4/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6726 - accuracy: 0.5850 - recall_2: 0.5850 - val_loss: 0.8591 - val_accuracy: 0.6350 - val_recall_2: 0.6350
+Epoch 5/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6648 - accuracy: 0.6112 - recall_2: 0.6112 - val_loss: 0.8823 - val_accuracy: 0.6650 - val_recall_2: 0.6650
+
+HED color space SRNet, 200 images for each steg, 80-20 split
+Train for 400 steps, validate for 100 steps
+Epoch 1/5
+400/400 [==============================] - 99s 248ms/step - loss: 0.7029 - accuracy: 0.4950 - recall_3: 0.4950 - val_loss: 0.7026 - val_accuracy: 0.6550 - val_recall_3: 0.6550
+Epoch 2/5
+400/400 [==============================] - 95s 238ms/step - loss: 0.6907 - accuracy: 0.5487 - recall_3: 0.5487 - val_loss: 1.2872 - val_accuracy: 0.5500 - val_recall_3: 0.5500
+Epoch 3/5
+400/400 [==============================] - 95s 238ms/step - loss: 0.6794 - accuracy: 0.5738 - recall_3: 0.5738 - val_loss: 1.2720 - val_accuracy: 0.5300 - val_recall_3: 0.5300
+Epoch 4/5
+400/400 [==============================] - 95s 237ms/step - loss: 0.6694 - accuracy: 0.6025 - recall_3: 0.6025 - val_loss: 1.6084 - val_accuracy: 0.4700 - val_recall_3: 0.4700 - lo - ETA: 3s - loss: 0.6717 - accuracy: 0.5945
+Epoch 5/5
+400/400 [==============================] - 95s 238ms/step - loss: 0.6624 - accuracy: 0.6250 - recall_3: 0.6250 - val_loss: 1.6354 - val_accuracy: 0.4800 - val_recall_3: 0.4800
+
+XYZ
+Train for 400 steps, validate for 100 steps
+Epoch 1/5
+400/400 [==============================] - 85s 212ms/step - loss: 0.7016 - accuracy: 0.5075 - recall_4: 0.5075 - val_loss: 1.0960 - val_accuracy: 0.4100 - val_recall_4: 0.4100
+Epoch 2/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6881 - accuracy: 0.5437 - recall_4: 0.5437 - val_loss: 0.7395 - val_accuracy: 0.5600 - val_recall_4: 0.5600
+Epoch 3/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6776 - accuracy: 0.5838 - recall_4: 0.5838 - val_loss: 0.7493 - val_accuracy: 0.5550 - val_recall_4: 0.5550
+Epoch 4/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6696 - accuracy: 0.6112 - recall_4: 0.6112 - val_loss: 0.9184 - val_accuracy: 0.5200 - val_recall_4: 0.5200
+Epoch 5/5
+400/400 [==============================] - 81s 202ms/step - loss: 0.6583 - accuracy: 0.6050 - recall_4: 0.6050 - val_loss: 0.7169 - val_accuracy: 0.5650 - val_recall_4: 0.5650
